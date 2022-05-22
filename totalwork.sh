@@ -6,3 +6,10 @@ echo $RandomSingleDigitNumber
 
 DiceRoll=$(( 1 + RANDOM%6 ))
 echo $DiceRoll
+
+Dice1=$(( 1 + RANDOM%6 ))
+echo $Dice1
+Dice2=$(( 1 + RANDOM%6 ))
+echo $Dice2
+AddResult=$(( Dice1 + Dice2 ))
+echo $AddResult
