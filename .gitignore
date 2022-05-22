@@ -1,0 +1,8 @@
+#all pdf
+*.pdf
+
+#ignore all txt
+*.txt
+
+#ignore all docx
+*.docx
