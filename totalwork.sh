@@ -35,3 +35,15 @@ echo $userinputrequired
 feet=$(( userinputrequired / 12 ))
 echo $feet
 echo $userinputrequired==$feet
+
+
+read -p "enter plot length in feet" length
+echo $length
+read -p "enter plot breath in feet" breath
+echo $breath
+area=$(( length * breath ))
+echo $area
+#1meter=3.28 approx 3.3
+areameter=$(( area/3.3 ))
+echo $areameter
+echo $area==$areameter
