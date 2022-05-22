@@ -3,3 +3,6 @@ echo $day
 
 RandomSingleDigitNumber=$(( RANDOM%10 ))
 echo $RandomSingleDigitNumber
+
+DiceRoll=$(( 1 + RANDOM%6 ))
+echo $DiceRoll
