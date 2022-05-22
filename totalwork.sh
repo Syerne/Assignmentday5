@@ -28,3 +28,10 @@ sum=$(( num1 + num2 + num3 + num4 + num5 ))
 echo $sum
 avg=$(( sum / 5 ))
 echo $avg
+
+read -p "enter value in inches" userinputrequired
+echo $userinputrequired
+#1ft=12 inch
+feet=$(( userinputrequired / 12 ))
+echo $feet
+echo $userinputrequired==$feet
